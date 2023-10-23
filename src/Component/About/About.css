@@ -1,11 +1,10 @@
 .About-container {
-    /* height: 100vh; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 5rem 5% 5rem;
+    padding: 8rem 5% 8rem;
     color: white;
     text-align: center;
   }
