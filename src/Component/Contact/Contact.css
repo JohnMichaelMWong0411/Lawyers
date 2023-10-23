@@ -1,15 +1,24 @@
 .Contact-container {
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 8rem 5% 8rem;
+    padding: 4rem 5% 4rem;
     color: white;
     text-align: center;
   }
-  .contactContent {
-    display: flex;
-    flex-direction: column;
+  .contactContent h1{
+    text-align: center;
+    font-size: 60px;
   }
+  .contactInfo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+    gap: 5rem;
+  }
+  
