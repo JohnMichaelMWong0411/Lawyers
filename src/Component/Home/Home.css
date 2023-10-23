@@ -1,0 +1,81 @@
+.Home-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 5rem 5% 2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url('/public/homebg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.homeContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.homeContentL{
+  width: 50%;
+  height: auto;
+}
+.homeContentR {
+  padding: 100px 0;
+  width: 50%;
+  height: auto;
+  text-align: right;
+}
+.homeContentR h1 {
+  color: white;
+  font-size: 80px;
+}
+h5 {
+  font-size: 40px;
+  color:#e5bb69;
+}
+span {
+  border-bottom: 5px solid black;
+}
+.homeContent .button {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  border: solid black;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 2px;
+  cursor: pointer;
+}
+.homeContent .button:hover {
+  background-color: transparent;
+  color: #DAA520;
+  border-color: #DAA520;
+}
+
+@media (max-width: 1050px) {
+  .Home-container {
+    padding: 5rem 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeContent {
+    flex-direction: column;
+  }
+  .homeContentL {
+    width: 100%;
+    padding: 0;
+  }
+  .homeContentR {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .homeContentR h1 {
+    font-size: 80px;
+  }
+  h5 {
+    font-size: 40px;
+  }
+}

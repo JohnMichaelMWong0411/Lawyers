@@ -1,0 +1,36 @@
+.About-container {
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5rem 5% 5rem;
+    color: white;
+    text-align: center;
+  }
+.aboutContent {
+  width: 50%;
+}
+.aboutContent h1{
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+.aboutContent span {
+  color:#e5bb69;
+}
+.aboutContent p{
+  font-size: 20px;
+}
+@media (max-width: 1050px) {
+  .aboutContent {
+    width: 75%;
+  }
+  .aboutContent h1{
+    padding-bottom: 1px;
+    font-size: 40px;
+  }
+  .aboutContent p{
+    font-size: 20px;
+  }
+}
