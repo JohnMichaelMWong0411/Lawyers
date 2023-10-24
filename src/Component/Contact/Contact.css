@@ -1,15 +1,25 @@
 .Contact-container {
-    width: 100%;
+    /* width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: black;
     padding: 4rem 5% 4rem;
     color: white;
-    text-align: center;
+    text-align: center; */
+    width: 100%;
+    display: flex;
+    padding: 5rem 5% 1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url('/public/contactbg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    text-shadow: 0 10px 3px rgba(0,0,0,.3)
   }
   .contactContent h1{
-    text-align: center;
     font-size: 60px;
+  }
+  .contactContent h2{
+    font-size: 40px;
+    color:white;
   }
   .contactContent span {
     color: #e5bb69;
@@ -27,7 +37,7 @@
     width: 100%;
     gap: 2rem;
     color: #666;
-    padding: 3rem 3% 1rem 3%;
+    padding: 1rem 3% 1rem 3%;
     justify-content: center;
     text-align: left;
   }
@@ -35,6 +45,11 @@
     width: 100%;
     text-align: left;
   }
+.contactForm{
+  padding: 1rem 1rem 1rem;
+  border:#e5bb69 2px solid;
+
+}
 .contactInfoDiv iframe {
   margin-top: 30px;
   padding: 1rem 1rem 1rem;

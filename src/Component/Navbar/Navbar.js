@@ -26,7 +26,7 @@ const Navbar = () => {
                 <li><a href="#">Partners</a></li>
                 <li><a href="#">Associates</a></li>
                 <li><a href="#">Practice Areas</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
                 </div>
               </ul>
       </div>
