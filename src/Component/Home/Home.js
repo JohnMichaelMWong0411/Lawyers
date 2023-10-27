@@ -10,9 +10,9 @@ const Home = () => {
 
     return (
         <div id="Home" className="Home-container">
-            <div className='homeContent'>
+            <div className='homeContent'data-aos="fade-right" data-aos-duration="2000">
                 <div className='homeContentL'></div>
-                <div className='homeContentR' data-aos="fade-right" data-aos-duration="2000">
+                <div className='homeContentR'>
                     <h1><span>Lawyers</span></h1>
                     <h5>“Our Strengths.”</h5>
                     <h5>Your Advantage.”</h5>

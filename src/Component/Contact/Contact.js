@@ -14,10 +14,10 @@ const Contact = () => {
 
     return (
         <div id="Contact" className="Contact-container">
-            <div className='contactContent' data-aos="fade-up" data-aos-duration="2000">
+            <div className='contactContent' data-aos="fade-left" data-aos-duration="2000">
                 <h1>Contact <span>Us</span></h1>
                 <p>"Get in Touch with Our Legal Team."</p>
-                <div className='contactInfo' data-aos="fade-up" data-aos-duration="2000">
+                <div className='contactInfo'>
                     <div className='contactInfoDiv'>
                         <h3><FontAwesomeIcon icon={faPhone} style={{ color: '#e5bb69' }} /><span> Phone : </span></h3>
                         <p>+639271234567 / +421-0101</p>
