@@ -14,7 +14,7 @@ const Contact = () => {
 
     return (
         <div id="Contact" className="Contact-container">
-            <div className='contactContent' data-aos="fade-left" data-aos-duration="2000">
+            <div className='contactContent' data-aos="fade-right" data-aos-duration="2000">
                 <h1>Contact <span>Us</span></h1>
                 <p>"Get in Touch with Our Legal Team."</p>
                 <div className='contactInfo'>
