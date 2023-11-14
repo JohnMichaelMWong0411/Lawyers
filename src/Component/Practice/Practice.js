@@ -1,45 +1,46 @@
 import './Practice.css';
 const Practice = () => {
     return (
-    <div id="Practice">
-    <div class="accordion">
-    <div class="item bg-barcelona">
-        <div class="overlay">
-        <div class="overlay-inner">
-            <h1>Foreign Investments</h1>
-        </div>  
-        </div>  
-    </div> 
-    <div class="item bg-sydney">
-        <div class="overlay">
-        <div class="overlay-inner">
-            <h1>Foreign Investments</h1>
-        </div>  
-        </div>  
-    </div> 
-    <div class="item bg-venice">
-        <div class="overlay">
-        <div class="overlay-inner">
-            <h1>Foreign Investments</h1>
-        </div>  
-        </div>  
-    </div> 
-    <div class="item bg-singapore">
-        <div class="overlay">
-        <div class="overlay-inner">
-            <h1>Foreign Investments</h1>    
-        </div>  
-        </div>  
-    </div> 
-    <div class="item bg-san-francisco">
-        <div class="overlay">
-        <div class="overlay-inner">
-            <h1>Foreign Investments</h1>
-        </div>  
-        </div>  
-    </div> 
-    </div>  
-    </div>
+        <div class="accordion">
+        <ul>
+            <li>
+            <div> <a href="#">
+                <h2>Title 1</h2>
+                <p>Description 1</p>
+                </a> </div>
+            </li>
+            <li>
+            <div> <a href="#">
+                <h2>Title 2</h2>
+                <p>Description 2</p>
+                </a> </div>
+            </li>
+            <li>
+            <div> <a href="#">
+                <h2>Title 3</h2>
+                <p>Description 3</p>
+                </a> </div>
+            </li>
+            <li>
+            <div> <a href="#">
+                <h2>Title 4</h2>
+                <p>Description 4</p>
+                </a> </div>
+            </li>
+            <li>
+            <div> <a href="#">
+                <h2>Title 5</h2>
+                <p>Description 5</p>
+                </a> </div>
+            </li>
+            <li>
+            <div> <a href="#">
+                <h2>Title 6</h2>
+                <p>Description 6</p>
+                </a> </div>
+            </li>
+        </ul>
+        </div>
     );
 }
 export default Practice;
