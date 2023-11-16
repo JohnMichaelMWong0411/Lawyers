@@ -1,7 +1,7 @@
 import './Practice.css';
 const Practice = () => {
     return (
-        <div class="Practice-container">
+        <div id="Practice" class="Practice-container">
             <div class="Practice-Title">
                 <h1>Practice <span>Areas</span></h1>
             </div>
