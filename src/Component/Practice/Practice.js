@@ -1,45 +1,44 @@
 import './Practice.css';
 const Practice = () => {
     return (
-        <div class="accordion">
-        <ul>
-            <li>
-            <div> <a href="#">
-                <h2>Title 1</h2>
-                <p>Description 1</p>
-                </a> </div>
-            </li>
-            <li>
-            <div> <a href="#">
-                <h2>Title 2</h2>
-                <p>Description 2</p>
-                </a> </div>
-            </li>
-            <li>
-            <div> <a href="#">
-                <h2>Title 3</h2>
-                <p>Description 3</p>
-                </a> </div>
-            </li>
-            <li>
-            <div> <a href="#">
-                <h2>Title 4</h2>
-                <p>Description 4</p>
-                </a> </div>
-            </li>
-            <li>
-            <div> <a href="#">
-                <h2>Title 5</h2>
-                <p>Description 5</p>
-                </a> </div>
-            </li>
-            <li>
-            <div> <a href="#">
-                <h2>Title 6</h2>
-                <p>Description 6</p>
-                </a> </div>
-            </li>
-        </ul>
+        <div class="Practice-container">
+            <div class="Practice-Title">
+                <h1>Practice <span>Areas</span></h1>
+            </div>
+            <div class="accordion">
+            <ul>
+                <li>
+                <div> <a href="#">
+                    <h2>Civil Litigation</h2>
+                    </a> </div>
+                </li>
+                <li>
+                <div> <a href="#">
+                    <h2>Corporate Law</h2>
+                    </a> </div>
+                </li>
+                <li>
+                <div> <a href="#">
+                    <h2>Commercial Litigation</h2>
+                    </a> </div>
+                </li>
+                <li>
+                <div> <a href="#">
+                    <h2>Local Goverment</h2>
+                    </a> </div>
+                </li>
+                <li>
+                <div> <a href="#">
+                    <h2>Immigration</h2>
+                    </a> </div>
+                </li>
+                <li>
+                <div> <a href="#">
+                    <h2>Criminal Litigation</h2>
+                    </a> </div>
+                </li>
+            </ul>
+            </div>
         </div>
     );
 }
