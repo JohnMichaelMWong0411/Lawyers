@@ -5,13 +5,19 @@
   background-color: black;
 }
 .Practice-container h1 {
-  padding: 2rem 5% 2rem;
+  padding: 2rem 5% 0.5rem;
   color:white;
   text-align: center;
   font-size: 60px;
 }
 .Practice-Title span {
   color:#e5bb69;
+}
+.Practice-Title p {
+  padding: .5rem 5% 1.5rem;
+  text-align: center;
+  font-size: 25px;
+  color:white;
 }
 .accordion {
   width: 100%;
