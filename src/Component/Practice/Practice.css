@@ -1,11 +1,11 @@
 .Practice-container {
-  height: 100vh;
+  height: auto;
   width: 100%;
-  padding: 5rem 5% 2rem;
+  padding: 5rem 5% 10rem;
   background-color: black;
 }
 .Practice-container h1 {
-  padding: 2rem 5% 0.5rem;
+  padding: 0.5rem 5% 0.5rem;
   color:white;
   text-align: center;
   font-size: 60px;
@@ -14,7 +14,7 @@
   color:#e5bb69;
 }
 .Practice-Title p {
-  padding: .5rem 5% 1.5rem;
+  padding: 0 5% 1.5rem;
   text-align: center;
   font-size: 25px;
   color:white;
@@ -58,7 +58,7 @@
   width: 100%;
   position: relative;
   z-index: 3;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
   padding: 25px 25px;
   box-sizing: border-box;
   color: #fff;
