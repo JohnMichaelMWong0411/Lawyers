@@ -1,126 +1,62 @@
-* {
-  box-sizing: border-box;
-}
-
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Hind', sans-serif;
-  color: black;
-  display: flex;
-}
-
-.faq-container {
+.FAQ-container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 4rem;
-  width: 48rem;
+  padding: 5rem 5% 5rem;
 }
 
-.faq {
-  background-color: white;
-}
-.faq .faq-item {
-  border-bottom: 1px solid;
-}
-
-.faq button[aria-expanded='true'] {
-  border-bottom: 1px solid;
-}
-
-.faq button {
-  position: relative;
-  display: block;
-  text-align: left;
+.FAQ {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
   width: 100%;
-  padding: 1em 0;
-  color: black;
-  font-size: 1.15rem;
-  font-weight: 400;
+  height: 50px;
   border: none;
-  background: none;
+  text-align: left;
   outline: none;
-  background-color: #fff;
+  font-size: 15px;
+  transition: background-color 0.4s;
 }
 
-.faq button:hover,
-.faq button:focus {
-  cursor: pointer;
-  color: lightgray;
+.FAQ-container h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start:10px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.FAQ.active,
+.FAQ:hover {
+  background-color: #ccc;
 }
 
-.faq button:hover::after,
-.faq button:focus::after {
-  cursor: pointer;
-  color: black;
-  border: 1px solid;
+.FAQ::after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
 }
 
-.faq .faq-title {
-  padding: 1em 1.5em 1em 0;
+.FAQ.active::after {
+  content: "\2212";
 }
 
-.faq .icon {
-  display: inline-block;
-  position: absolute;
-  top: 18px;
-  right: 0;
-  width: 22px;
-  height: 22px;
-  border: 1px solid;
-  border-radius: 22px;
-}
-
-.faq .icon::before {
-  display: block;
-  position: absolute;
-  content: '';
-  top: 9px;
-  left: 5px;
-  width: 10px;
-  height: 2px;
-
-}
-
-.faq .icon::after {
-  display: block;
-  position: absolute;
-  content: '';
-  top: 5px;
-  left: 9px;
-  width: 2px;
-  height: 10px;
-}
-
-.faq button[aria-expanded='true'] {
-  color: black;
-}
-
-.faq button[aria-expanded='true'] .icon::after {
-  width: 0;
-}
-
-.faq button[aria-expanded='true'] + .faq-content {
-  opacity: 1;
-  max-height: 9em;
-  transition: all 200ms linear;
-  will-change: opacity, max-height;
-}
-
-.faq .faq-content {
-  opacity: 0;
+.panel {
+  padding: 0px 18px;
+  margin: 15px;
+  background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 200ms linear, max-height 200ms linear;
-  will-change: opacity, max-height;
+  transition: max-height 0.2s ease-out;
 }
-
-.faq .faq-content p {
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 2em 0;
+.FAQ-container button {
+  font-size: 1.5em;
+}
+.panel p {
+  white-space: pre-line;
+  font-size: 1.5em;
 }
