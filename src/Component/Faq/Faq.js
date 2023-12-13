@@ -33,7 +33,7 @@ const FAQ = () => {
     },
     {
       question: 'How long do I have to file a lawsuit?',
-      answer: 'This is another common question that people don’t often realize has such a variable answer. Include it on your FAQ so that you can explain to them all the variables involved and how they can determine the best course of action (hint: this is where you plug them calling you for a consultation). For example, the statute of limitations on a product injury lawsuit in Ohio is two years, while in Florida, people have up to four years to file. The type of claim also affects how long people have to file, and that’s determined on a state-by-state basis, as well.\n\nYou are showcasing your expertise here by providing as much information as you can without actually giving people the answer because the answer doesn’t exist. At least, not until you know the parameters of the case and the other details involved. When you give them an insightful answer that also encourages them to reach out, you’re going above and beyond even though you can’t give them the actual answer that they wanted. ',
+      answer: 'line for all the different types of practice areas that you cover. One thing you can do is to make a timeline with events that have a more specific time frame and note the events that may be more dependent on the circumstances or case itself.  ',
     },
   ];
 
