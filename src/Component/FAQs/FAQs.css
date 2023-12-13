@@ -9,7 +9,7 @@
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 10px;
+  padding: 15px;
   width: 100%;
   height: 50px;
   border: none;
@@ -21,7 +21,7 @@
 
 .FAQ-container h1 {
     display: block;
-    font-size: 3em;
+    font-size: 3.2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start:10px;
@@ -46,18 +46,19 @@
 }
 
 .panel {
-  padding: 0px 18px;
-  margin: 25px;
+  padding: 2px 18px;
+  margin: 5px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.1s ease-out;
 }
 .FAQ-container button {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .panel p {
   white-space: pre-line;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #444;
+  padding: 15px;
 }
