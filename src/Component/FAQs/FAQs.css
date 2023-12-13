@@ -47,7 +47,7 @@
 
 .panel {
   padding: 0px 18px;
-  margin: 15px;
+  margin: 25px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
@@ -59,4 +59,5 @@
 .panel p {
   white-space: pre-line;
   font-size: 1.5em;
+  color: #444;
 }
