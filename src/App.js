@@ -16,7 +16,6 @@ function App() {
         <FAQ />
         <Practice />
         <Contact />
-
       </div>
       
   );
