@@ -52,9 +52,7 @@ h5 {
   cursor: pointer;
 }
 .homeContent .button:hover {
-  /* background-color: transparent; */
   color: white;
-  background-color:#e5bb69;
   text-shadow: 0 2px 1px rgba(0,0,0,.3);
 }
 

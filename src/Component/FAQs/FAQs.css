@@ -28,6 +28,8 @@
     margin-inline-end: 10px;
     font-weight: bold;
     text-align: center;
+    text-shadow: 0 5px 3px rgba(0,0,0,.3)
+
 }
 .FAQ.active,
 .FAQ:hover {
@@ -53,12 +55,16 @@
   overflow: hidden;
   transition: max-height 0.1s ease-out;
 }
+
 .FAQ-container button {
   font-size: 1.3em;
+  border-left: solid 5px #e5bb69;
 }
 .panel p {
   white-space: pre-line;
-  font-size: 1em;
+  font-size: 1.2em;
+  line-height: 1.5em;
   color: #444;
   padding: 15px;
+  text-align: left;
 }

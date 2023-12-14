@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 8rem 5% 8rem;
+    padding: 5rem 5% 8rem;
     color: white;
     text-align: center;
   }
@@ -20,7 +20,8 @@
   color:#e5bb69;
 }
 .aboutContent p{
-  font-size: 20px;
+  font-size: 1.2em;
+
 }
 @media (max-width: 1050px) {
   .aboutContent {

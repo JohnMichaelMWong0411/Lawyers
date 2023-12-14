@@ -13,7 +13,7 @@ const Home = () => {
                 <div className='homeContentL'></div>
                 <div className='homeContentR' data-aos="fade-left" data-aos-duration="2">
                     <h1><span>Lawyers</span></h1>
-                    <h5>“Our Strengths.”</h5>
+                    <h5>“Our Strengths.</h5>
                     <h5>Your Advantage.”</h5>
                     <div data-aos="fade-left" data-aos-duration="5"><a href="/register" className="button">Message Us!</a></div>
                 </div>
