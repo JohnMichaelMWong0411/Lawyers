@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import EmailForm from '../EmailForm/EmailForm';
 
 const Contact = () => {
     useEffect(() => {
@@ -35,10 +36,8 @@ const Contact = () => {
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade" />
                     </div>
-                    <div className='contactInfoDiv'>
-
-                    </div>
                 </div>
+                <EmailForm />
             </div>
         </div>
     );

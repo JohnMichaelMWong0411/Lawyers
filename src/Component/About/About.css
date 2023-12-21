@@ -10,17 +10,17 @@
     text-align: center;
   }
 .aboutContent {
-  width: 50%;
+  width: 60%;
 }
 .aboutContent h1{
-  font-size: 60px;
+  font-size: 4.5em;
   padding-bottom: 15px;
 }
 .aboutContent span {
   color:#e5bb69;
 }
 .aboutContent p{
-  font-size: 1.2em;
+  font-size: 1.5em;
 
 }
 @media (max-width: 1050px) {
